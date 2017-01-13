@@ -4,5 +4,9 @@
 }, {
     "questionText": "What is deuterium?",
     "userName": "James Doohan"
+  }],
+  "answers": [{
+      "author": "AJ",
+      "content": "Genereic Answer"
   }]
 }

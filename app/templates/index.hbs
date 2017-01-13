@@ -1,8 +1,7 @@
 {{outlet}}
-<h1>Star Trek Q/A Board</h1>
 <p>Welcome! Below are questions posed and hopefully answered by our community. Please feel free to ask or answer any questions you wish!</p>
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-line question=question update='update'}}
   {{/each}}
 </ul>

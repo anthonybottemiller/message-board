@@ -1,8 +1,8 @@
 { "questions": [{
-    "question": "How fast is warp 9?",
+    "questionText": "How fast is warp 9?",
     "userName": "Scott Bakula"
 }, {
-    "question": "What is deuterium?",
+    "questionText": "What is deuterium?",
     "userName": "James Doohan"
   }]
 }

@@ -11,6 +11,7 @@ export default Ember.Component.extend({
       var parameters = {
         question : this.get('question'),
         userName : this.get('user'),
+        notes : this.get('notes')
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', parameters);

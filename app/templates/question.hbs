@@ -4,4 +4,10 @@
 <p>Asked by: {{model.userName}}</p>
 <h4>Notes:</h4>
 <p>{{model.notes}}</p>
+<h3>Answers</h3>
+<ul>
+  {{#each model.answers as |answer|}}
+    {{answer-block answer=answer}}
+  {{/each}}
+</ul>
 {{new-answer saveAnswer="saveAnswer" question=model}}
